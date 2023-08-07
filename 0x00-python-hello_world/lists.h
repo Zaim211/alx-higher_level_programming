@@ -14,3 +14,4 @@ typedef struct listint_s
 	int i;
 	struct listint_s *p;
 } listint_t;
+#endif
