@@ -5,7 +5,7 @@
 /**
  * struct listint_s - singly linked list
  * @n: integer
- * @next: pointer to next node
+ * @next: points to next node
  * Description: singly linked list node
  * For Holberton project
  */
