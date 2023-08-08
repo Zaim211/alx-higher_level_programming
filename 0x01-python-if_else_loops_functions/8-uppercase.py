@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 def uppercase(str):
-    ascii_num = ord(str)
-    if ascii_num <= 65 and ascii_num >= 90:
-        return True
-    return False
+    for n in range(len(str)):
+        if ord(str[n]) >= 97 and ord(str[n]) <= 122:
+            num = 32
+        else
+            num = 0
+        print("{:c}".format(ord(str[n]) - num), end="")
+    print()
