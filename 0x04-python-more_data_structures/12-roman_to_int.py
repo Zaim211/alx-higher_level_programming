@@ -26,13 +26,13 @@ def roman_to_int(roman_string):
     for char in roman_string:
         for r_num in list_keys:
             if r_num == char:
-                if rom_num.get(ch) <= last_rom:
+                if rom_num.get(char) <= last_rom:
                     num += to_subtract(list_num)
                     list_num = [rom_num.get(char)]
                 else:
                     list_num.append(rom_num.get(char))
 
-                last_rom = rom_n.get(char)
+                last_rom = rom_num.get(char)
 
     num += to_subtract(list_num)
 
