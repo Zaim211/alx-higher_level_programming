@@ -4,7 +4,7 @@ contains the MyList class
 """
 
 
-class MyList(obj):
+class MyList(list):
     """subclass of list"""
     def print_sorted(self):
          """initializes the object"""
@@ -12,4 +12,4 @@ class MyList(obj):
 
     def print_sorted(self):
         """print the sorted list"""
-        print(sorted(list))
+        print(sorted(self))
