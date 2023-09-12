@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Contains a Class Student
-"""
+"""Contains a Class Student"""
 
 
 class Student:
