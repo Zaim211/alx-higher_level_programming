@@ -25,6 +25,7 @@ class Student:
         Args:
             attrs (list): (Optional) The attributes to represent
         """
-        if (type(attrs) == list and all type(e) == str for e in attrs)):
+        if (type(attrs) == list and 
+                all type(e) == str for e in attrs)):
             return {x: getattr(self, x) for x in attrs if hasattr(self, x)}
         return self.__dict__
