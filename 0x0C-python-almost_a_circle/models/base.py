@@ -140,7 +140,7 @@ class Base:
             list_rectangles (list): A list of Rectangle objects to draw.
             list_squares (list): A list of Square objects to draw.
         """
-         turt = turtle.Turtle()
+        turt = turtle.Turtle()
         turt.screen.bgcolor("#b7312c")
         turt.pensize(3)
         turt.shape("turtle")
